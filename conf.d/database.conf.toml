@@ -1,0 +1,12 @@
+[template]
+src   = "database.conf.tmpl"
+dest  = "/config.cnf"
+owner = "1000"
+group = "1000"
+mode  = "0644"
+keys = [
+  "/mysql/host",
+  "/mysql/port",
+  "/mysql/user",
+  "/mysql/pass",
+]
